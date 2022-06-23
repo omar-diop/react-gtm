@@ -1,6 +1,6 @@
 {
   "name": "react-gtm-consent",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Google Tag Manager Module forked from alinemorelli/react-gtm",
   "main": "dist/index.js",
   "scripts": {
