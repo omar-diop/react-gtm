@@ -1,9 +1,9 @@
-[![Build Status](https://img.shields.io/travis/alinemorelli/react-gtm/master.svg?style=flat-square)](https://travis-ci.org/alinemorelli/react-gtm)
-[![npm version](https://img.shields.io/npm/v/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module)
-[![npm downloads](https://img.shields.io/npm/dm/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module)
+[![npm version](https://img.shields.io/npm/v/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-consent)
+[![npm downloads](https://img.shields.io/npm/dm/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-consent)
 
-# react-gtm-module
-### React Google Tag Manager Module
+# react-gtm-consent
+
+### React Google Tag Manager Module with consent mode settings option
 
 This is a Javascript module to [React](https://facebook.github.io/react/) based apps that implement Google Tag Manager. It is designed to use [GTM](https://developers.google.com/tag-manager/quickstart) snippet.
 
@@ -14,7 +14,7 @@ You can easily use custom dataLayer, multiple dataLayers and additional events.
 [npm](https://www.npmjs.com/):
 
 ```bash
-npm install react-gtm-module --save
+npm install react-gtm-consent --save
 ```
 
 ## Usage
@@ -70,7 +70,6 @@ const app = document.getElementById('app')
 ReactDOM.render(<Router routes={routes} />, app)
 
 ```
-
 
 ### Multiple dataLayer example:
 
@@ -134,7 +133,6 @@ export default Home
 
 ```
 
-
 ## Events
 
 ### Example:
@@ -188,24 +186,23 @@ TagManager.initialize(tagManagerArgs)
 ```
 
 ##### How can I find auth and preview?
+
 Go to Google Tag Manager -> ADMIN -> Environments -> Actions -> Get Snippet.
 Look for gtm_auth and gtm_preview
 
-##### Don't know to use GTM environments? 
-   - https://support.google.com/tagmanager/answer/6311518
-   - https://www.simoahava.com/analytics/better-qa-with-google-tag-manager-environments/
+##### Don't know to use GTM environments?
 
+- https://support.google.com/tagmanager/answer/6311518
+- https://www.simoahava.com/analytics/better-qa-with-google-tag-manager-environments/
 
-
-|Value|Type|Required|Notes|
-|------|-----|-----|-----|
-|gtmId| `String`| Yes | GTM id, must be something like `GTM-000000`.|
-|dataLayer| `Object`| No | Object that contains all of the information that you want to pass to Google Tag Manager.|
-|dataLayerName| `String`| No | Custom name for dataLayer object.|
-|events| `Object`| No | Additional events such as 'gtm.start': new Date().getTime(),event:'gtm.js'.|
-|auth| `String` | No | used to set environments. |
-|preview| `String` | No | used to set environments, something like `env-00`. |
-
+| Value         | Type     | Required | Notes                                                                                    |
+| ------------- | -------- | -------- | ---------------------------------------------------------------------------------------- |
+| gtmId         | `String` | Yes      | GTM id, must be something like `GTM-000000`.                                             |
+| dataLayer     | `Object` | No       | Object that contains all of the information that you want to pass to Google Tag Manager. |
+| dataLayerName | `String` | No       | Custom name for dataLayer object.                                                        |
+| events        | `Object` | No       | Additional events such as 'gtm.start': new Date().getTime(),event:'gtm.js'.              |
+| auth          | `String` | No       | used to set environments.                                                                |
+| preview       | `String` | No       | used to set environments, something like `env-00`.                                       |
 
 ### Note:
 

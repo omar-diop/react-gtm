@@ -1,6 +1,6 @@
 {
-  "name": "react-gtm-module",
-  "version": "2.1.0",
+  "name": "react-gtm-consent",
+  "version": "1.0.0",
   "description": "React Google Tag Manager Module forked from alinemorelli/react-gtm",
   "main": "dist/index.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/omar-diop/react-gtm"
+    "url": "https://github.com/omar-diop/react-gtm-consent"
   },
   "author": {
     "name": "Omar Diop",
