@@ -1,5 +1,5 @@
-[![npm version](https://img.shields.io/npm/v/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-consent)
-[![npm downloads](https://img.shields.io/npm/dm/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-consent)
+[![npm version](https://img.shields.io/npm/v/react-gtm-consent.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-consent)
+[![npm downloads](https://img.shields.io/npm/dm/react-gtm-consent.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-consent)
 
 # react-gtm-consent
 
